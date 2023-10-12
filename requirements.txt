@@ -1,4 +1,6 @@
 numpy
 pandas
 seaborn
+logging
+datatime
 -e .
