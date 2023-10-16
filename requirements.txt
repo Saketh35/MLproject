@@ -1,6 +1,5 @@
 numpy
 pandas
 seaborn
-logging
-datatime
+matplotlib
 -e .
