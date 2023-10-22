@@ -10,10 +10,10 @@ def predict_datapoint():
     st.write("## Student Exam Performance Prediction")
 
     gender = st.selectbox("Gender", ["Male", "Female"])
-    ethnicity = st.selectbox("Race Ethnicity", ["Group A", "Group B", "Group C", "Group D", "Group E"])
-    parental_level_of_education = st.selectbox("Parental Level of Education", ["Associate's Degree", "Bachelor's Degree", "High School", "Master's Degree", "Some College", "Some High School"])
-    lunch = st.selectbox("Lunch Type", ["Free/Reduced", "Standard"])
-    test_preparation_course = st.selectbox("Test Preparation Course", ["None", "Completed"])
+    ethnicity = st.selectbox("Race Ethnicity", ["group A", "group B", "group C", "group D", "group E"])
+    parental_level_of_education = st.selectbox("Parental Level of Education", ["associate's degree", "bachelor's degree", "high school", "master's degree", "some college", "some high school"])
+    lunch = st.selectbox("Lunch Type", ["free/reduced", "standard"])
+    test_preparation_course = st.selectbox("Test Preparation Course", ["none", "completed"])
     reading_score = st.slider("Reading Score out of 100", 0, 100, 50)
     writing_score = st.slider("Writing Score out of 100", 0, 100, 50)
 
