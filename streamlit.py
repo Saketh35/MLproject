@@ -34,12 +34,12 @@ def predict_datapoint():
         result = round(float(result), 2)
         st.success(f"The predicted score is: {result}")
 
-# Main function to run the Streamlit app
-def main():
-    st.header("Welcome to the home page")
-    st.write("This is a simple web application for predicting student exam performance.")
-    predict_datapoint()
+# # Main function to run the Streamlit app
+# def main():
+#     st.header("Welcome to the home page")
+#     st.write("This is a simple web application for predicting student exam performance.")
+#     predict_datapoint()
 
-# Run the Streamlit app
-if __name__ == "__main__":
-    main()
+# # Run the Streamlit app
+# if __name__ == "__main__":
+#     main()
