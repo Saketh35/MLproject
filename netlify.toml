@@ -1,6 +1,2 @@
 [build]
-  command = "python app.py"  # Command to run your Flask app
-  publish = "templates"  # Path to any static files
-
-[context.production]
-  environment = { FLASK_ENV = "production" }  # Set Flask environment to production
+  command = "python app.py"
