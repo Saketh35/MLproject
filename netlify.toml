@@ -1,2 +1,7 @@
 [build]
+  base = ""
   command = "python app.py"
+  publish = "static"
+
+[context.production]
+  environment = { FLASK_ENV = "production" }
