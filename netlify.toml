@@ -1,6 +1,5 @@
 [build]
-  command= "source venv/bin/activate && flask build"
-  publish= "build"
+  command= "python app.py"
 
 [context.production]
   environment = { FLASK_ENV = "production" }
