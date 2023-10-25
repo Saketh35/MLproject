@@ -1,5 +1,5 @@
 [build]
-  command= "flask build"
+  command= "source venv/bin/activate && flask build"
   publish= "build"
 
 [context.production]
