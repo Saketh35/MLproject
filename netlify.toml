@@ -1,7 +1,6 @@
 [build]
-  base = ""
-  command = "python app.py"
-  publish = ""
+  command: flask build
+  publish: build
 
 [context.production]
   environment = { FLASK_ENV = "production" }
