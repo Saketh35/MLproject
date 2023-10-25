@@ -1,6 +1,6 @@
 [build]
-  command: flask build
-  publish: build
+  command: "flask build"
+  publish: "build"
 
 [context.production]
   environment = { FLASK_ENV = "production" }
